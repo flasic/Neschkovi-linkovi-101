@@ -1,7 +1,7 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "chicken-farm-management",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,15 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lucide-react": "^0.344.0",
-    "qrcode": "^1.5.3",
-    "qr-scanner": "^1.4.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "recharts": "^2.12.7",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.344.0",
+    "framer-motion": "^11.5.4",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
-    "@types/qrcode": "^1.5.5",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
